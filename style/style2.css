@@ -1,0 +1,55 @@
+body{
+    width: 100vh;
+    background-color: palevioletred;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 2px solid black; */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.crush-click{
+    padding: 25px;
+    border-radius: 15px;
+    background-color: rgb(152, 197, 199);
+    color: white;
+    border-color: rgb(152, 197, 199);
+    font-weight: bold;
+    border: 0;
+    filter: drop-shadow(10px 7px 5px rgb(160, 160, 160));
+    cursor: pointer;
+}
+
+.crush-click:hover{
+    transition: all .3s ease-in-out;
+    padding: 30px;
+    color: palevioletred;
+}
+
+#crush-click > a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+#crush-click >a:hover{
+    color: palevioletred;
+}
+
