@@ -1,9 +1,18 @@
 body{
-    width: 100vh;
+    padding: 0;
+    margin: 0;
+    /* width: 100vh; */
     background-color: palevioletred;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: min-content;
+}
 .wrapper{
     position: fixed;
     top: 50%;
