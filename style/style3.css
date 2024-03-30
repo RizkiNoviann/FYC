@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: palevioletred;
+    text-transform: capitalize;
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.choice{
+    display: flex;
+    justify-content: space-between;
+}
+
+.choice img{
+    cursor: pointer;
+}
+
+.choice-yes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.choice-no{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.choice-no > a > img{
+    margin-top: 25px;
+}
+
